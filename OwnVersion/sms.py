@@ -6,7 +6,7 @@ def send_sms(
     auth_token = "2b762f653c913c0589ed63c4e49cf848"
     account_sid = "AC070fcec7fa499dd1bab8a2734b0d9f70"
     if not debug:
-        number_list = ["+4915165180284", "+4915159845444ü"]
+        number_list = ["+491515984544ü"]
     else:
         number_list = ["+4915165180284"]
     for recipient in number_list:
